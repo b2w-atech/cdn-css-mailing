@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.newsletter-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--MEDIUM_B2W_GREEN);
+  color: var(--WHITE);
+  padding: 16px 10px;
+}
+
+.banner {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  align-items: flex-end;
+  padding: 70px 50px;
+  background-image: url(../assets/images/banner-notebook.jpg);
+  background-size: 100% 650px;
+  background-position: center;
+}
+
+.b2data-platform-logo {
+  display: block;
+  width: 200px;
+  height: min-content;
+}
+
+.newsletter-week {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-week-header {
+  background-color: var(--VERY_LIGHT_GREY);
+  color: var(--MEDIUM_GREY);
+  padding: 3rem 5rem;
+}
+
+.newsletter-week-header .title {
+  color: var(--DARK_GREY);
+  font-family: 'Roboto LightItalic';
+  margin-bottom: 32px;
+}
+
+.newsletter-week-header .body2 {
+  line-height: 32px;
+}
+
+.newsletter-week-list {
+  padding: 3rem 5rem;
+}
+
+.newsletter-week-list div + div {
+  margin-top: 3rem;
+}
+
+.newsletter-week-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  border-bottom: solid 2px var(--INTERMEDIATE_LIGHT_GREY);
+  justify-items: center;
+  padding:  0 3rem 3rem ;
+}
+
+.newsletter-week-box-image {
+  width: 150px
+}
+
+.newsletter-week-box-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.newsletter-week-box-description .title {
+  color: var(--MEDIUM_B2W_GREEN);
+}
+
+.comming-soon {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  padding: 70px 50px;
+  background-image: url(../assets/images/B2DATA-MOBILE-PREVIEW.jpg);
+  background-size: 100% 160%;
+  background-position: left;
+}
+
+.comming-soon .title {
+  color: var(--WHITE);
+  font-family: 'Roboto Bold';
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+.comming-soon .body2 {
+  line-height: 24px;
+  color: var(--WHITE);  
+}
+
+.newsletter-footer {
+  display: flex;
+  background-color: var(--INTERMEDIATE_LIGHT_GREY);
+  color: var(--MEDIUM_GREY);
+  padding: 10px 16px;
+}
