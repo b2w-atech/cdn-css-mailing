@@ -17,7 +17,7 @@
   width: 100%;
   align-items: flex-end;
   padding: 70px 50px;
-  background-image: url(../assets/images/banner-notebook.jpg);
+  background-image: url(https://b2data-files.s3.amazonaws.com/mailing/images/banner-notebook.jpg);
   background-size: 100% 650px;
   background-position: center;
 }
@@ -86,7 +86,7 @@
   height: 300px;
   width: 100%;
   padding: 70px 50px;
-  background-image: url(../assets/images/B2DATA-MOBILE-PREVIEW.jpg);
+  background-image: url(https://b2data-files.s3.amazonaws.com/mailing/images/B2DATA-MOBILE-PREVIEW.jpg);
   background-size: 100% 160%;
   background-position: left;
 }
